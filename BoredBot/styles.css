@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-size: 1em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: #D8A7B1;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Lusitana', serif;
+    font-size: 4em;
+    color: #1F232C;
+}
+
+.activity-name {
+    font-family: 'Prata', serif;
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 2em;
+    color: #1F232C;
+}
+
+.btn {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 2em;
+    border-radius: 50%;
+    border: none;
+    background-color: #DFD6D1;
+    color: #1F232C;
+    font-family: 'Prata', serif;
+    font-weight: bold;
+    
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #DFD6D1;
+    background-color: #1F232C;
+    
+}

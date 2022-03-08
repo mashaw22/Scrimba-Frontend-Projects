@@ -1,0 +1,107 @@
+/* GLOBAL STYLES */
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+}
+
+
+ /*====================\
+ Typography 
+ ======================*/
+
+
+.title {
+    margin: 0;
+    text-transform: uppercase;
+    color: beige;
+    font-size: 1.5rem;
+}
+
+/* form */
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #AC8E60;
+    margin-bottom: .675em;
+}
+
+/* blog-list */
+h3 {
+    color: #BD8E83;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+ /*====================\
+ Layout
+ ======================*/
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+ nav {
+    background-color: #BD8E83;
+    /* height: 1.3em; */
+    padding: 1.5em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* form layout */
+
+form {
+    padding: 8em .675em .675em;
+    background-color: #F6EDE0;
+}
+
+input,
+textarea {
+    border: 3px solid #749EB2;
+    border-radius: 5px;
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+}
+
+input {
+    padding: .675em;
+    margin-bottom: 1em;
+}
+
+textarea {
+    padding: .675em .675em 3em;
+    margin-bottom: 1.5em;
+}
+
+button {
+    background-color: #749EB2;
+    color: white;
+    font-size: 1.5rem;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background-color: #274d5f;
+}
+
+/* blog-list layout */
+.blog-list {
+    margin-top: 2em;
+}
