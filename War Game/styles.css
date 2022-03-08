@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    /* height: 100vh; */
+}
+
+body {
+    background: pink;
+    background-image: url(../images/Cat58_generated.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 1rem;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ======================= 
+TYPOGRAPHY
+=========================*/
+h1 {
+    font-size: 2.3rem;
+    background: #603F8B;
+    color: #ffbbdc;
+    border-radius: 5px;
+    padding: .5em 1em;
+    margin: 0;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 1.75rem;
+    background: #dfc7ff;
+    padding: .5em .75em;
+    border-radius: 25px;
+}
+
+.remaining-cards {
+    /* align-self: flex-start; */
+    font-size: 1.75rem;
+    background-color: #603F8B;
+    color: #ffbbdc;
+    border-radius: 5px;
+    padding: .5em 1em;
+    margin-top: 0;
+    border: #e5d2ff 5px solid; 
+    margin-bottom: 20px;
+}
+
+button {
+    font-family: 'Gamja Flower', cursive;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: .5em 1em;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #ffbbdc;
+    color: #603F8B;
+    border: #603F8B 5px solid;
+    /* max-width: 500px; */
+}
+
+.new-deck-btn {
+    /* align-self: flex-start; */
+    margin-bottom: 25px;
+}
+
+.draw-cards-btn {
+    align-self: stretch;
+    margin-top: 25px;
+}
+
+button:hover,
+button:focus {
+    color: #ffbbdc;
+    background-color: #603F8B;
+};
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+a,
+p {
+    display: block;
+    font-size: 1.5rem;
+    color: #603F8B;
+}
+
+/* button:active {
+    background-color: #ffbbdc;
+    color: #603F8B;
+} */
+
+/* ======================= 
+LAYOUT
+=========================*/
+
+.container {
+    /* max-width: 900px; */
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header {
+    display: flex;
+    align-self: flex-start;
+    margin: 0;
+}
+
+.card-slot {
+    border: 5px solid #603F8B;
+    border-radius: 15px;
+    background-color: #603F8B;
+    height: 200px;
+    width: calc(200px *5 /7)
+}
+
+.card-slot:nth-of-type(1) {
+    margin-bottom: 50px;
+}
+
+/* .cards {
+    margin: 0 auto;
+} */
